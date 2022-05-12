@@ -83,36 +83,36 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-RAIDEN_IMG = "https://telegra.ph/file/9f266a0cd571586b79f1e.mp4"
-RAIDEN_START = "https://telegra.ph/file/125747f3dbd6325207cdf.mp4"
+RAIDEN_IMG = "https://te.legra.ph/file/c9f73319920ef3bd0a5e4.mp4"
+RAIDEN_START = "https://te.legra.ph/file/ccf5775228c77d516c740.mp4"
 
 PM_START_TEXT = """
-────「 [{}](https://telegra.ph/file/3f3548e8a4334922aa3a4.mp4) 」────
+────「 [{}](https://te.legra.ph/file/c9f73319920ef3bd0a5e4.mp4) 」────
 ᴋᴏɴ'ɴɪᴄʜɪᴡᴀ {} - sᴀɴ!  
-ɪ'ᴍ [𝙈𝙖𝙧𝙞𝙣](https://sono-bisque-doll-wa-koi-wo-suru.fandom.com/wiki/Marin_Kitagawa) ᴀɴ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ.
+ɪ'ᴍ [𝗠𝗶𝘀𝗵𝗮 𝗡𝗲𝗰𝗿𝗼𝗻](https://maou-gakuin.fandom.com/wiki/Misha_Necron) ᴀɴ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ.
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
 » ᴜᴘᴛɪᴍᴇ {} 
 » ᴜsᴇʀs {} ᴀᴄʀᴏss {} ᴄʜᴀᴛs 
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
 ʜɪᴛ /help ᴛᴏ sᴇᴇ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅs ᴀᴠᴀɪʟᴀʙʟᴇ ᴀғᴛᴇʀ ᴍʏ ᴇʟᴇᴍᴇɴᴛᴀʟ ʙᴜғғ. ××  
-𝙋𝙤𝙬𝙚𝙧𝙚𝙙 𝘽𝙮 [𝘼𝙊𝙂𝙄𝙍𝙄](https://t.me/AogiriNetwork).
+𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆 [𝗧𝗲𝗮𝗺𝗡𝗲𝘅𝘂𝘀𝗫](https://t.me/NexusXSupport).
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ᴀᴅᴅ ᴍᴀʀɪɴ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕️",
-            url="t.me/SenkoSanRobot?startgroup=true",
+            text="➕ ᴀᴅᴅ ᴍɪꜱʜᴀ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕",
+            url="t.me/MishaXRobot?startgroup=true",
         ),
     ],
     [
         InlineKeyboardButton(
             text="ᴍʏ ʜᴏᴍᴇ",
-            url="t.me/SenkoxSupport",
+            url="t.me/NexusXSupport",
         ),
         InlineKeyboardButton(
-            text="ᴛʜᴇ ᴀʟᴍɪɢʜᴛʏ ∞",
-            url="https://t.me/Xultim8",
+            text="ʜᴜꜱʙᴀɴᴅᴏ,
+            url="https://t.me/Husbandoo",
         ),
     ],
     [
@@ -121,23 +121,22 @@ buttons = [
             callback_data="help_back",
         ),
         InlineKeyboardButton(
-            text="ᴀᴏɢɪʀɪ",
-            url="https://t.me/AogiriNetwork",
+            text="ᴇʟᴅᴏʀᴀᴅᴏ™",
+            url="https://t.me/Eldoradoo",
         ),
     ],
 ]
 
 HELP_STRINGS = """
-Hey there! Myself [ᴍᴀʀɪɴ](https://telegra.ph/file/c95d5ef1b7abbf3238f3e.mp4).
+Hey there! Myself [ᴍɪꜱʜᴀ](https://te.legra.ph/file/ccf5775228c77d516c740.mp4).
 Have a look at the following for an idea of some of the things I can help you with.
 *Main* commands available:
  ➛ /help: PM's you this message.
  ➛ /help <module name>: PM's you info about that module.
  ➛ /bug <error name> : inform support about that error 
- ➛ /donate: information on how to donate!
  ➛ /settings: 
    ❂ in PM: will send you your settings for all supported modules.
-   ❂ in a group: will redirect you to pm, with all that chat's settings.\n• *ʀᴇᴀᴄʜ ᴏᴜᴛ ғᴏʀ sᴜᴘᴘᴏʀᴛ:* [sᴜᴘᴘᴏʀᴛ](https://t.me/MarinSupport)
+   ❂ in a group: will redirect you to pm, with all that chat's settings.\n• *ʀᴇᴀᴄʜ ᴏᴜᴛ ғᴏʀ sᴜᴘᴘᴏʀᴛ:* [sᴜᴘᴘᴏʀᴛ](https://t.me/NexusXSupport)
 """
 
 IMPORTED = {}
@@ -262,7 +261,7 @@ def start(update: Update, context: CallbackContext):
     else:
         message.reply_video(
             RAIDEN_IMG,
-            caption="Kon'nichiwa, Marin san Desu~ Here To Help!\n: <code>{}</code>".format(
+            caption="Kon'nichiwa, ᴍɪꜱʜᴀ san Desu~ Here To Help!\n: <code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
@@ -271,11 +270,11 @@ def start(update: Update, context: CallbackContext):
                     [
                         InlineKeyboardButton(
                             text="ᴍʏ ʜᴏᴍᴇ",
-                            url="https://t.me/MarinSupport",
+                            url="https://t.me/NexusXSupport",
                         ),
                         InlineKeyboardButton(
                             text="ʜᴇʟᴘ",
-                            url=f"https://t.me/MarinRobot?start=help",
+                            url=f"https://t.me/MishaxRobot?start=help",
                         ),
                     ]
                 ]
@@ -683,8 +682,8 @@ def main():
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
             dispatcher.bot.send_video(
-                "@MarinSupport",
-                "https://telegra.ph/file/a3519d803e811ec8bd572.jpg",
+                "@NexusXSupport",
+                "https://te.legra.ph/file/b6311df917115722a77cf.jpg",
                 "Am Alive Again ~ UwU ~",
                 parse_mode=ParseMode.MARKDOWN,
             )
