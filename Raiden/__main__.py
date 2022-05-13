@@ -83,11 +83,11 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-RAIDEN_IMG = "https://te.legra.ph/file/c9f73319920ef3bd0a5e4.mp4"
-RAIDEN_START = "https://te.legra.ph/file/ccf5775228c77d516c740.mp4"
+RAIDEN_IMG = "https://telegraph/file/c9f73319920ef3bd0a5e4.mp4"
+RAIDEN_START = "https://telegraph/file/ccf5775228c77d516c740.mp4"
 
 PM_START_TEXT = """
-────「 [{}](https://te.legra.ph/file/c9f73319920ef3bd0a5e4.mp4) 」────
+────「 [{}](https://telegraph/file/c9f73319920ef3bd0a5e4.mp4) 」────
 ᴋᴏɴ'ɴɪᴄʜɪᴡᴀ {} - sᴀɴ!  
 ɪ'ᴍ [𝗠𝗶𝘀𝗵𝗮 𝗡𝗲𝗰𝗿𝗼𝗻](https://maou-gakuin.fandom.com/wiki/Misha_Necron) ᴀɴ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ(https://myanimelist.net/anime/40496/Maou_Gakuin_no_Futekigousha__Shijou_Saikyou_no_Maou_no_Shiso_Tensei_shite_Shison-tachi_no_Gakkou_e_Kayou).
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
@@ -128,7 +128,7 @@ buttons = [
 ]
 
 HELP_STRINGS = """
-Hey there! Myself [ᴍɪꜱʜᴀ](https://te.legra.ph/file/ccf5775228c77d516c740.mp4).
+Hey there! Myself [ᴍɪꜱʜᴀ](https://telegraph/file/ccf5775228c77d516c740.mp4).
 Have a look at the following for an idea of some of the things I can help you with.
 *Main* commands available:
  ➛ /help: PM's you this message.
@@ -683,7 +683,7 @@ def main():
         try:
             dispatcher.bot.send_video(
                 "@NexusXSupport",
-                "https://te.legra.ph/file/b6311df917115722a77cf.jpg",
+                "https://telegraph/file/b6311df917115722a77cf.jpg",
                 "Am Alive Again ~ UwU ~",
                 parse_mode=ParseMode.MARKDOWN,
             )
