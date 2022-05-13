@@ -142,22 +142,22 @@ def info(update, context):
     disaster_level_present = False
 
     if user.id == OWNER_ID:
-        text += ("\n\n» This person is a appointed <b>'GOD'</b>.")
+        text += ("\n\n» This person is a appointed <b>'Demon King'</b>.")
         disaster_level_present = True
     elif user.id in DEMONS:
-        text += ("\n\n» This person is a appointed <b>'Demon'</b>.")
+        text += ("\n\n» This person is a appointed <b>'Destroyer Of The God'</b>.")
         disaster_level_present = True
     elif user.id in DEV_USERS:
-        text += ("\n\n» This person is a appointed <b>'Dev User'</b>.")
+        text += ("\n\n» This person is a appointed <b>'Demon Emperor'</b>.")
         disaster_level_present = True
     elif user.id in SUPPORT_USERS:
         text += (
-            "\n\n » This person is a appointed <b>'Dragon'</b>"
+            "\n\n » This person is a appointed <b>'Demon Of Destruction'</b>"
         )
         disaster_level_present = True
     elif user.id in WHITELIST_USERS:
         text += (
-            "\n\n » This person is a appointed <b>'Favonious Knight'</b>"
+            "\n\n » This person is a appointed <b>'Sovereign Knight'</b>"
         )
         disaster_level_present = True
 
@@ -189,9 +189,9 @@ def info(update, context):
                     [
                         [
                             InlineKeyboardButton(
-                                "Support", url="https://t.me/MarinSupport"),
+                                "Support", url="https://t.me/NexusXSupport"),
                             InlineKeyboardButton(
-                                "Disaster", url="https://t.me/MarinXUpdates"),
+                                "Disaster", url="https://t.me/MishaXUpdates/13"),
                          ],
                          [
                             InlineKeyboardButton(
@@ -208,9 +208,9 @@ def info(update, context):
                     [
                         [
                             InlineKeyboardButton(
-                                "Support", url="https://t.me/MarinRobot"),
+                                "Support", url="https://t.me/NexusXSupport"),
                             InlineKeyboardButton(
-                                "Disaster", url="https://t.me/MarinXUpdates"),
+                                "Disaster", url="https://t.me/MishaXUpdates/13"),
                          ],
                          [
                             InlineKeyboardButton(
@@ -397,7 +397,7 @@ def src(update, _) -> None:
                 [
                     InlineKeyboardButton(
                         text="GitHub repo",
-                        url="https://t.me/Anime_Chat_Folks",
+                        url="https://t.me/NexusXSuppport",
                     ),
                 ],
             ],
@@ -486,7 +486,7 @@ def rmemes(update, context):
 
 def sudo_ids(update: Update, context: CallbackContext):
     bot = context.bot
-    reply = "<b>My Sensei's :</b>\n"
+    reply = "<b>My Kings :</b>\n"
     for each_user in SUPPORT_USERS:
         user_id = int(each_user)
         try:
@@ -498,7 +498,7 @@ def sudo_ids(update: Update, context: CallbackContext):
 
 def dev_ids(update: Update, context: CallbackContext):
     bot = context.bot
-    reply = "<b>My Onii Chans:</b>\n"
+    reply = "<b>My Demons:</b>\n"
     for each_user in DEV_USERS:
         user_id = int(each_user)
         try:
@@ -510,7 +510,7 @@ def dev_ids(update: Update, context: CallbackContext):
 
 def support_ids(update: Update, context: CallbackContext):
     bot = context.bot
-    reply = "<b>My Best Friends:</b>\n"
+    reply = "<b>My Destroyers:</b>\n"
     for each_user in WHITELIST_USERS:
         user_id = int(each_user)
         try:
@@ -523,7 +523,7 @@ def support_ids(update: Update, context: CallbackContext):
 
 def stats(update, _):
     update.effective_message.reply_text(
-        "Marin Stats:\n" + "\n".join([mod.__stats__() for mod in STATS])
+        "Misha Stats:\n" + "\n".join([mod.__stats__() for mod in STATS])
     )
 
 
