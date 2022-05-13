@@ -89,7 +89,7 @@ RAIDEN_START = "https://telegra.ph/file/b5d470fa1c1fb55632d15.mp4"
 PM_START_TEXT = """
 ────「 [{}](https://telegra.ph/file/dca076c7b9d627134177f.mp4 」────
 ᴋᴏɴ'ɴɪᴄʜɪᴡᴀ {} - sᴀɴ!  
-ɪ'ᴍ [𝗠𝗶𝘀𝗵𝗮 𝗡𝗲𝗰𝗿𝗼𝗻](https://maou-gakuin.fandom.com/wiki/Misha_Necron) ᴀɴ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ(https://myanimelist.net/anime/40496/Maou_Gakuin_no_Futekigousha__Shijou_Saikyou_no_Maou_no_Shiso_Tensei_shite_Shison-tachi_no_Gakkou_e_Kayou).
+ɪ'ᴍ [𝗠𝗶𝘀𝗵𝗮 𝗡𝗲𝗰𝗿𝗼𝗻](https://maou-gakuin.fandom.com/wiki/Misha_Necron) ᴀ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ.
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
 » ᴜᴘᴛɪᴍᴇ {} 
 » ᴜsᴇʀs {} ᴀᴄʀᴏss {} ᴄʜᴀᴛs 
