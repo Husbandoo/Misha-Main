@@ -59,11 +59,11 @@ def verify(update: Update, context: CallbackContext):
     buttons = [
     [
         InlineKeyboardButton(
-            text="★ The Kaizuryu ★",url="t.me/TheKaizuryu"),
+            text="★ Eldorado ★",url="t.me/Eldoradoo"),
     ],
     [
         InlineKeyboardButton(
-            text="★ Anime Chat ★", url=f"https://t.me/Anime_Chat_XKaizuryu"),
+            text="★ Support Chat ★", url=f"https://t.me/NexusXSupport"),
 
               
     ]
