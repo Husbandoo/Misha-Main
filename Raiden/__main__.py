@@ -261,7 +261,7 @@ def start(update: Update, context: CallbackContext):
     else:
         message.reply_video(
             RAIDEN_IMG,
-            caption="Kon'nichiwa, ᴍɪꜱʜᴀ san Desu~ Here To Help!\n: <code>{}</code>".format(
+            caption="ʜᴇʏ ᴛʜᴇʀᴇ!\n • ɪ ᴀᴍ ᴍɪꜱʜᴀ ɴᴇᴄʀᴏɴ, ʜᴇʀᴇ ᴛᴏ ꜱᴘʀᴇᴀᴅ ʟᴏᴠᴇꜱ ᴡɪᴛʜ ᴏᴛʜᴇʀꜱ, ᴏʜʜ ɪ ᴍᴇᴀɴ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ!\n • ʜᴀᴠᴇɴ'ᴛ ꜱʟᴇᴇᴘ ꜱɪɴᴄᴇ : <code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
