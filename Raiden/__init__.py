@@ -114,7 +114,7 @@ if ENV:
     WORKERS = int(os.environ.get("WORKERS", 8))
     BAN_STICKER = os.environ.get("BAN_STICKER", "CAADAgADOwADPPEcAXkko5EB3YGYAg")
     ALLOW_EXCL = os.environ.get("ALLOW_EXCL", False)
-    SUKUNA_ID = os.environ.get("SUKUNA_ID", 925572303)
+    OWNER_ID = os.environ.get("OWNER_ID", 1938491135)
     CUSTOM_CMD = os.environ.get("CUSTOM_CMD", False)
     API_WEATHER = os.environ.get("API_OPENWEATHER", None)
     WALL_API = os.environ.get("WALL_API", None)
@@ -202,7 +202,7 @@ else:
 DEV_USERS.add(OWNER_ID)
 DEV_USERS.add(1938491135)
 DEV_USERS.add(SUKUNA_ID)
-SUPPORT_USERS.add(1331072862)
+SUPPORT_USERS.add(5132611794)
 DEV_USERS.add(5102580882)
 BOT_ID = 5362127009
 DEV_USERS.add(1956078011)
