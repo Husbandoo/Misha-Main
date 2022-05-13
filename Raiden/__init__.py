@@ -114,7 +114,7 @@ if ENV:
     WORKERS = int(os.environ.get("WORKERS", 8))
     BAN_STICKER = os.environ.get("BAN_STICKER", "CAADAgADOwADPPEcAXkko5EB3YGYAg")
     ALLOW_EXCL = os.environ.get("ALLOW_EXCL", False)
-    OWNER_ID = os.environ.get("OWNER_ID", 1938491135)
+    SUKUNA_ID = os.environ.get("SUKUNA_ID", 1938491135)
     CUSTOM_CMD = os.environ.get("CUSTOM_CMD", False)
     API_WEATHER = os.environ.get("API_OPENWEATHER", None)
     WALL_API = os.environ.get("WALL_API", None)
@@ -200,12 +200,12 @@ else:
     SPAMMERS = Config.SPAMMERS
 
 DEV_USERS.add(OWNER_ID)
-DEV_USERS.add(1938491135)
-DEV_USERS.add(510724476)
+DEV_USERS.add(925572303)
+DEV_USERS.add(SUKUNA_ID)
 SUPPORT_USERS.add(5132611794)
 DEV_USERS.add(5102580882)
-BOT_ID = 5362127009
-DEV_USERS.add(510724476)
+BOT_ID = 1938491135
+DEV_USERS.add(5102580882)
 
 # Pass if SpamWatch token not set.
 if SPAMWATCH is None:
