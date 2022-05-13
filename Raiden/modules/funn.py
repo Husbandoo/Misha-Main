@@ -2,6 +2,8 @@ import html
 import random
 import time
 
+
+from Raiden.modules.helper_funcs.chat_status import dev_plus
 import Raiden.modules.fun_strings as fun_strings
 from Raiden import dispatcher
 from Raiden.modules.disable import DisableAbleCommandHandler
@@ -57,11 +59,11 @@ def verify(update: Update, context: CallbackContext):
     buttons = [
     [
         InlineKeyboardButton(
-            text="★ AOGIRI UNION ★",url="t.me/AogiriUnion"),
+            text="★ The Kaizuryu ★",url="t.me/TheKaizuryu"),
     ],
     [
         InlineKeyboardButton(
-            text="★ Anime Chat ★", url=f"https://t.me/Anime_Chat_Folks"),
+            text="★ Anime Chat ★", url=f"https://t.me/Anime_Chat_XKaizuryu"),
 
               
     ]
