@@ -111,7 +111,7 @@ buttons = [
             url="t.me/NexusXSupport",
         ),
         InlineKeyboardButton(
-            text="ʜᴜꜱʙᴀɴᴅᴏ,
+            text="ʜᴜꜱʙᴀɴᴅᴏ",
             url="https://t.me/Husbandoo",
         ),
     ],
