@@ -100,7 +100,7 @@ def warn(
                         "Remove warn ⚠️", callback_data="rm_warn({})".format(user.id)
                     ),
                     InlineKeyboardButton(
-                        "Rules", url="http://t.me/Voilet_probot?start={}".format(chat.id)
+                        "Rules", url="http://t.me/MishaXRobot?start={}".format(chat.id)
                     )
                 ]
             ]
