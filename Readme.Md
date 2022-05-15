@@ -21,5 +21,5 @@ Bot Owner [Husbando](https://t.me/Husbandoo)
 # Credits ✨
 
 ```
-Raiden For It's rep
+Raiden For It's repo
 ```
