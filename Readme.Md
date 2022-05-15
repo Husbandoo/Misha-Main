@@ -21,5 +21,5 @@ Bot Owner [Husbando](https://t.me/Husbandoo)
 # Credits ✨
 
 ```
-Komi - San
+Raiden For It's repo
 ```
