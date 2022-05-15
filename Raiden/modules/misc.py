@@ -498,7 +498,7 @@ def sudo_ids(update: Update, context: CallbackContext):
 
 def dev_ids(update: Update, context: CallbackContext):
     bot = context.bot
-    reply = "<b>My Demons:</b>\n"
+    reply = "<b>My Emperors:</b>\n"
     for each_user in DEV_USERS:
         user_id = int(each_user)
         try:
