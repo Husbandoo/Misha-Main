@@ -59,7 +59,10 @@ def mute(update, context):
             context.bot.restrict_chat_member(
                 chat.id, user_id, permissions=ChatPermissions(can_send_messages=False)
             )
-            message.reply_text("👍🏻 muted! 🤐")
+            message.reply_text(
+                f"<code>🤐</code><b>Shut Up!</b>\n"
+            f"<code> </code><b>• Muted User:</b> {mention_html(member.user.id, member.user.first_name)}"
+            )
             return (
                 "<b>{}:</b>"
                 "\n#MUTE"
