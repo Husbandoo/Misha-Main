@@ -75,7 +75,7 @@ def mute(update, context):
             )
 
         else:
-            message.reply_text("This user is already taped 🤐")
+            message.reply_text("This user is already taped")
     else:
         message.reply_text("This user isn't in the chat!")
 
@@ -222,14 +222,14 @@ def temp_mute(update, context):
                 until_date=mutetime,
                 permissions=ChatPermissions(can_send_messages=False),
             )
-            message.reply_text("shut up! 🤐 Taped for {}!".format(time_val))
+            message.reply_text("shut up! Taped for {}!".format(time_val))
             return log
         message.reply_text("This user is already muted.")
 
     except BadRequest as excp:
         if excp.message == "Reply message not found":
             # Do not reply
-            message.reply_text("shut up! 🤐 Taped for {}!".format(time_val), quote=False)
+            message.reply_text("shut up! Taped for {}!".format(time_val), quote=False)
             return log
         LOGGER.warning(update)
         LOGGER.exception(
