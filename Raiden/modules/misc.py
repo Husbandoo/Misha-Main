@@ -525,10 +525,6 @@ def stats(update, _):
     update.effective_message.reply_text(
         "Misha Stats:\n" + "\n".join([mod.__stats__() for mod in STATS])
     )
-     + f"\n\n✦ [Support](https://t.me/{SUPPORT_CHAT}) | ✦ [Updates](https://t.me/TeamNexusX)\n\n"
-                )
-                + "╘══「 by Aogiri](https://t.me/AogiriNetwork) 」\n"
-            ),
 
 
 def paste(update, context):
