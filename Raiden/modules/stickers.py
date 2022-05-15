@@ -169,7 +169,7 @@ def kang(update: Update, context: CallbackContext):
                     f"Sticker emoji: {sticker_emoji}",
                     reply_markup=InlineKeyboardMarkup([
                   [
-                    InlineKeyboardButton(text="Your Pack", url=f"t.me/addstickers/{packname}")
+                    InlineKeyboardButton(text="Pack", url=f"t.me/addstickers/{packname}")
                   ],
 
                 ]),
@@ -206,7 +206,7 @@ def kang(update: Update, context: CallbackContext):
                     f"Sticker emoji: {sticker_emoji}",
                     reply_markup=InlineKeyboardMarkup([
                   [
-                    InlineKeyboardButton(text="Your Pack", url=f"t.me/addstickers/{packname}")
+                    InlineKeyboardButton(text="Pack", url=f"t.me/addstickers/{packname}")
                   ],
 
                 ]),
@@ -222,7 +222,7 @@ def kang(update: Update, context: CallbackContext):
                     f"Sticker emoji: {sticker_emoji}",
                     reply_markup=InlineKeyboardMarkup([
                   [
-                    InlineKeyboardButton(text="Your pack", url=f"t.me/addstickers/{packname}")
+                    InlineKeyboardButton(text="Pack", url=f"t.me/addstickers/{packname}")
                   ],
 
                 ]),
@@ -264,7 +264,7 @@ def kang(update: Update, context: CallbackContext):
                     f"Sticker emoji: {sticker_emoji}",
                     reply_markup=InlineKeyboardMarkup([
                   [
-                    InlineKeyboardButton(text="Your Pack", url=f"t.me/addstickers/{packname}")
+                    InlineKeyboardButton(text="Pack", url=f"t.me/addstickers/{packname}")
                   ],
 
                 ]),
@@ -290,7 +290,7 @@ def kang(update: Update, context: CallbackContext):
                     f"Sticker emoji: {sticker_emoji}",
                     reply_markup=InlineKeyboardMarkup([
                   [
-                    InlineKeyboardButton(text="Your Pack", url=f"t.me/addstickers/{packname}")
+                    InlineKeyboardButton(text="Pack", url=f"t.me/addstickers/{packname}")
                   ],
 
                 ]),
@@ -335,7 +335,7 @@ def kang(update: Update, context: CallbackContext):
                     f"Sticker emoji: {sticker_emoji}",
                     reply_markup=InlineKeyboardMarkup([
                   [
-                    InlineKeyboardButton(text="Your Pack", url=f"t.me/addstickers/{packname}")
+                    InlineKeyboardButton(text="Pack", url=f"t.me/addstickers/{packname}")
                   ],
 
                 ]),
@@ -362,7 +362,7 @@ def kang(update: Update, context: CallbackContext):
                     f"Sticker emoji: {sticker_emoji}",
                     reply_markup=InlineKeyboardMarkup([
                   [
-                    InlineKeyboardButton(text="Your Pack", url=f"t.me/addstickers/{packname}")
+                    InlineKeyboardButton(text="Pack", url=f"t.me/addstickers/{packname}")
                   ],
 
                 ]),
@@ -410,7 +410,7 @@ def kang(update: Update, context: CallbackContext):
                     f"Sticker emoji: {sticker_emoji}",
                     reply_markup=InlineKeyboardMarkup([
                   [
-                    InlineKeyboardButton(text="Your Pack", url=f"t.me/addstickers/{packname}")
+                    InlineKeyboardButton(text="Pack", url=f"t.me/addstickers/{packname}")
                   ],
 
                 ]),
@@ -445,7 +445,7 @@ def kang(update: Update, context: CallbackContext):
                     f"Sticker emoji: {sticker_emoji}",
                     reply_markup=InlineKeyboardMarkup([
                   [
-                    InlineKeyboardButton(text="Your Pack", url=f"t.me/addstickers/{packname}")
+                    InlineKeyboardButton(text="Pack", url=f"t.me/addstickers/{packname}")
                   ],
 
                 ]),
@@ -461,7 +461,7 @@ def kang(update: Update, context: CallbackContext):
                     f"Sticker emoji: {sticker_emoji}",
                     reply_markup=InlineKeyboardMarkup([
                   [
-                    InlineKeyboardButton(text="Your Pack", url=f"t.me/addstickers/{packname}")
+                    InlineKeyboardButton(text="Pack", url=f"t.me/addstickers/{packname}")
                   ],
 
                 ]),
@@ -560,7 +560,7 @@ def makepack_internal(
                     f"Sticker emoji: {sticker_emoji}",
                     reply_markup=InlineKeyboardMarkup([
                   [
-                    InlineKeyboardButton(text="Your Pack", url=f"t.me/addstickers/{packname}")
+                    InlineKeyboardButton(text="Pack", url=f"t.me/addstickers/{packname}")
                   ],
 
                 ]),
@@ -574,7 +574,7 @@ def makepack_internal(
                     f"Sticker emoji: {sticker_emoji}",
                     reply_markup=InlineKeyboardMarkup([
                   [
-                    InlineKeyboardButton(text="Your Pack", url=f"t.me/addstickers/{packname}")
+                    InlineKeyboardButton(text="Pack", url=f"t.me/addstickers/{packname}")
                   ],
 
                 ]),
@@ -592,7 +592,7 @@ __help__ = """
 • `/stickers`*:* Find stickers for given term on combot sticker catalogue
 """
 
-__mod_name__ = "♡sᴛɪᴄᴋᴇʀs♡"
+__mod_name__ = "Stickers"
 STICKERID_HANDLER = DisableAbleCommandHandler("stickerid", stickerid, run_async=True)
 GETSTICKER_HANDLER = DisableAbleCommandHandler("getsticker", getsticker)
 KANG_HANDLER = DisableAbleCommandHandler("kang", kang, admin_ok=True, run_async=True)
