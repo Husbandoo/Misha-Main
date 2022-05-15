@@ -112,7 +112,7 @@ if ENV:
     STRICT_GBAN = bool(os.environ.get("STRICT_GBAN", False))
  
     WORKERS = int(os.environ.get("WORKERS", 8))
-    BAN_STICKER = os.environ.get("BAN_STICKER", "CAADAgADOwADPPEcAXkko5EB3YGYAg")
+    BAN_STICKER = os.environ.get("BAN_STICKER", None)
     ALLOW_EXCL = os.environ.get("ALLOW_EXCL", False)
     SUKUNA_ID = os.environ.get("SUKUNA_ID", 1938491135)
     CUSTOM_CMD = os.environ.get("CUSTOM_CMD", False)
